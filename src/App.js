@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header/header';
-import Stacking from './components/stacking/stacking'
+import Stacking from './components/stacking/stacking';
 function App() {
   return (
     <div className="App">
