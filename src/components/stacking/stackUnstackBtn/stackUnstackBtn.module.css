@@ -1,0 +1,13 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+    justify-content: space-around;
+    font-size: 25px;
+}
+.stack {
+    margin-left: 8px;
+}

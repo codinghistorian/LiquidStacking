@@ -1,11 +1,13 @@
+import stylesHeader from "./header.module.css";
+
 function Header() {  
       return (
           <div>
-            <div>
+            <div className = {`${stylesHeader.Header}`}>
             Liquid Stacking on STX     
             </div>
-            <div>
-            Stack STX and receive stSTX while stacking      
+            <div className = {`${stylesHeader.BabyHead}`}>
+                Stack STX and receive stSTX while stacking      
             </div>
           </div>
                     

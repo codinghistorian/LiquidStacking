@@ -1,7 +1,9 @@
+import stylesButton from "./stackUnstackBtn.module.css";
+
 function StackUnstackBtn() {  
       return (
-          <div>
-            <div>
+        <div className = {`${stylesButton.btn}`}>
+            <div className = {`${stylesButton.stack}`}>
                     Stack
             </div>
             <div>
