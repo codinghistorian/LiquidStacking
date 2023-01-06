@@ -1,0 +1,8 @@
+.flexInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: pink;
+    width: 350px;
+    height: 30px;
+}
