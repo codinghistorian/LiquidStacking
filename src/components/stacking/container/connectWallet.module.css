@@ -1,0 +1,20 @@
+.button {
+    background-color: #48A1F8;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: #F2F2F2;
+    font-size: 17px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(217, 135, 135); */
+}

@@ -1,0 +1,26 @@
+.containerOut {
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    height: 80px;  
+    margin-top: 25px;
+    width: 345px;
+}
+
+.containerIn {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    margin-top: 6px;
+}
+
+.leftCol {
+    color: #7D899E;
+    font-size: 15px;
+}
+
+.rightCol {
+    color: #7D899E;
+    font-size: 15px;
+    font-weight: bold;
+}

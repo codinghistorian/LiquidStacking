@@ -1,13 +1,32 @@
 .btn {
     display: flex;
     flex-direction: row;
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    background-color: #fff;
+    width: 245px;
+    height: 60px;
+    line-height: 50px;
+    background-color: #DBE0E4;
     justify-content: space-around;
-    font-size: 25px;
+    font-size: 21px;
+    border-radius: 49px;
+    text-align: center;
+    margin-bottom: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 .stack {
-    margin-left: 8px;
+    /* margin-left: 18px; */
+    background-color: #F1F4F6;
+    height: 50px;
+    border-radius: 49px;
+    width: 110px;
+    position:relative;
+    top: 5px;
+}
+
+.unstack {
+    background-color: #F1F4F6;
+    height: 50px;
+    border-radius: 49px;
+    width: 110px;
+    position:relative;
+    top: 5px;
 }

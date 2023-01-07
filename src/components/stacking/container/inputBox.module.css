@@ -1,8 +1,65 @@
 .flexInput {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    background-color: pink;
+    justify-content: space-between;
+    background-color: rgb(251, 251, 251);
     width: 350px;
-    height: 30px;
+    height: 60px;
+    border-radius: 20px;
+    line-height: 60px;
+    border-color: #E0E1E7;
+    position: relative;
+    bottom: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.STXLogo {
+    position: relative;
+    top: 11px;
+    left: 15px;
+}
+.Max {
+    position: relative;
+    right: 15px;
+    top: 10px;
+    background-color: #F4F8FC;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 58px;
+    border-radius: 20px;
+    color: #A4D0FC;
+}
+img {
+    width: 33px;
+    height: 33px;
+}
+input {
+    width: 220px;
+    height: 53px;
+    position: relative;
+    bottom: 61.5px;
+    left: 70px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-size: 17px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  outline: none;
+  background: transparent;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+  outline: none;
+  background: transparent;
+
 }

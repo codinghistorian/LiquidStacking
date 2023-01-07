@@ -1,28 +1,30 @@
+import stylesInfo from "./info.module.css";
+
 
 function Info() {  
       return (
-          <div>
-            <div>
-              <div>
+          <div className = {`${stylesInfo.containerOut}`}>
+            <div className = {`${stylesInfo.containerIn}`}>
+              <div className = {`${stylesInfo.leftCol}`}>
                 You will receive
               </div>
-              <div>
+              <div className = {`${stylesInfo.rightCol}`}>
                 0 stSTX
               </div>  
             </div>
-            <div>
-              <div>
-                Exchange rate
+            <div className = {`${stylesInfo.containerIn}`}>
+              <div className = {`${stylesInfo.leftCol}`}>
+                Exchange Rate
               </div>
-              <div>
+              <div className = {`${stylesInfo.rightCol}`}>
                 1 STX = 0.9505 stSTX
               </div>  
             </div>
-            <div>
-              <div>
+            <div className = {`${stylesInfo.containerIn}`}>
+              <div className = {`${stylesInfo.leftCol}`}>
                 Annual percentage rate
               </div>
-              <div>
+              <div className = {`${stylesInfo.rightCol}`}>
                 6.3%
               </div>  
             </div>

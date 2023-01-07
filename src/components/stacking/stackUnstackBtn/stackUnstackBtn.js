@@ -6,7 +6,7 @@ function StackUnstackBtn() {
             <div className = {`${stylesButton.stack}`}>
                     Stack
             </div>
-            <div>
+            <div className = {`${stylesButton.unstack}`}>
                     Unstack  
             </div>
           </div>
