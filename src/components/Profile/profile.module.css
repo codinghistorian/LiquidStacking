@@ -1,0 +1,34 @@
+.ProfileContainer {
+  width: 510px;
+  text-align: right;
+}
+.ProfileIcon {
+  width: 28px;
+  height: 28px;
+}
+.Dropdown {
+  display: none;
+  position: absolute;
+  padding: 20px 0px 10px 10px !important;
+  top: 0;
+  right: 0;
+  list-style-type: none;
+  text-align: right;
+  width: 100px;
+}
+.Dropdown li {
+  font-size: 14px;
+  padding: 10px 0;
+  color: #222;
+  cursor: default;
+}
+.Dropdown li:hover {
+  color: #555
+}
+.Navbar:hover > .Dropdown {
+  display: block;
+}
+.Navbar {
+  display: inline-block;
+  position: relative;
+}

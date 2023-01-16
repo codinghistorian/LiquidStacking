@@ -1,10 +1,11 @@
-
+.HeaderContainer {
+    margin-top: 10vh;
+}
 .Header {
     font-size: 47px;
     text-align: center;
     margin-bottom: 10px;
     font-weight: bold;
-
 }
 .BabyHead {
     font-size: 25px;
