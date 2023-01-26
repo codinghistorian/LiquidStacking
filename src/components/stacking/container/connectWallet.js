@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { connectWallet } from "../../service/walletConnect"
+import { stackSTX } from "../../service/stackSTX";
 import { userSession } from '../../service/userSession';
 import stylesConnectWallet from "./connectWallet.module.css";
 
@@ -13,13 +14,24 @@ function ConnectWallet() {
     }
   }, [])
 
-  if (isUserConnected) return <></>
+  if (isUserConnected) return (
+    <div className = {`${stylesConnectWallet.container}`}>
+      <button 
+        type="button"
+        className = {`${stylesConnectWallet.buttonStack}`}
+        onClick={stackSTX}
+      >
+        StackSTX
+      </button>
+    </div>
+  )
+  // <></>
 
   return (
     <div className = {`${stylesConnectWallet.container}`}>
       <button 
         type="button"
-        className = {`${stylesConnectWallet.button}`}
+        className = {`${stylesConnectWallet.buttonConnectWallet}`}
         onClick={connectWallet}
       >
         Connect Wallet
